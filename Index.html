@@ -1,4 +1,4 @@
-<!index.html>
+<Index html>
 <html lang="pt-BR" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
@@ -157,15 +157,45 @@
         </div>
     </section>
 
-    <!-- Stats / Logos Section -->
-    <div class="bg-slate-50 py-10 border-b border-slate-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-6">Pilares do Projeto</p>
-            <div class="flex flex-wrap justify-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition duration-500">
-                <div class="flex items-center gap-2 text-xl font-bold text-slate-700"><i class="fa-solid fa-city"></i> Smart Cities</div>
-                <div class="flex items-center gap-2 text-xl font-bold text-slate-700"><i class="fa-solid fa-car"></i> Mobilidade</div>
-                <div class="flex items-center gap-2 text-xl font-bold text-slate-700"><i class="fa-solid fa-chart-pie"></i> Data Driven</div>
-                <div class="flex items-center gap-2 text-xl font-bold text-slate-700"><i class="fa-solid fa-hand-holding-heart"></i> Ética</div>
+    <!-- Recognition / Stats Section -->
+    <div class="bg-white py-8 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col xl:flex-row items-center justify-between gap-8">
+                
+                <!-- Badges Container -->
+                <div class="flex flex-col md:flex-row gap-4 w-full xl:w-auto">
+                    <!-- Santander X Explorer Badge -->
+                    <div class="flex items-center gap-4 bg-red-50 px-5 py-3 rounded-2xl border border-red-100 shadow-sm flex-1 md:flex-initial justify-center md:justify-start transform hover:scale-105 transition duration-300">
+                        <div class="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white text-lg shrink-0 shadow-md">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div>
+                            <p class="text-[10px] font-bold text-red-600 uppercase tracking-wider mb-0.5">Global</p>
+                            <p class="text-slate-900 font-bold text-sm leading-tight">Santander X Explorer</p>
+                        </div>
+                    </div>
+
+                    <!-- Sebrae Startups Badge -->
+                    <div class="flex items-center gap-4 bg-blue-50 px-5 py-3 rounded-2xl border border-blue-100 shadow-sm flex-1 md:flex-initial justify-center md:justify-start transform hover:scale-105 transition duration-300">
+                        <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white text-lg shrink-0 shadow-md">
+                            <i class="fa-solid fa-rocket"></i>
+                        </div>
+                        <div>
+                            <p class="text-[10px] font-bold text-blue-600 uppercase tracking-wider mb-0.5">Aceleração</p>
+                            <p class="text-slate-900 font-bold text-sm leading-tight">Sebrae Startups <span class="text-blue-500 font-normal ml-1">1ª Fase</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vertical Divider (Hidden on Mobile) -->
+                <div class="hidden xl:block w-px h-12 bg-slate-200"></div>
+
+                <!-- Pillars -->
+                <div class="flex flex-wrap justify-center gap-6 md:gap-10 opacity-70">
+                    <div class="flex items-center gap-2 text-sm md:text-base font-bold text-slate-600"><i class="fa-solid fa-city text-nexo-blue"></i> Smart Cities</div>
+                    <div class="flex items-center gap-2 text-sm md:text-base font-bold text-slate-600"><i class="fa-solid fa-chart-pie text-nexo-blue"></i> Data Driven</div>
+                    <div class="flex items-center gap-2 text-sm md:text-base font-bold text-slate-600"><i class="fa-solid fa-hand-holding-heart text-nexo-blue"></i> Ética</div>
+                </div>
             </div>
         </div>
     </div>
@@ -372,60 +402,64 @@
         </div>
     </section>
 
-    <!-- Cadastro / CTA Final -->
+    <!-- Cadastro / Estudo de Viabilidade -->
     <section id="cadastro" class="py-20 bg-nexo-light">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
-                <!-- Info Side -->
-                <div class="bg-nexo-blue text-white p-10 md:w-2/5 flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-3xl font-bold mb-4">Vamos inovar juntos?</h3>
-                        <p class="text-blue-100 mb-6">Estamos selecionando os primeiros parceiros para o programa piloto. As vagas são limitadas.</p>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="font-sans text-3xl font-bold text-slate-900 mb-4">Ajude a construir o futuro da mobilidade</h2>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto">Sua opinião é fundamental para validarmos o NexoFlow. Escolha seu perfil abaixo e participe do nosso estudo de viabilidade.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                
+                <!-- Card Motorista -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg border border-slate-100 flex flex-col hover:shadow-xl hover:border-blue-300 transition duration-300 group">
+                    <div class="w-14 h-14 bg-blue-100 text-nexo-blue rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-car"></i>
                     </div>
-                    <div class="space-y-4">
-                        <div class="flex items-center">
-                            <i class="fa-solid fa-envelope w-6 text-center mr-3"></i>
-                            <span>contato@OpenMid_Connect.com</span>
-                        </div>
-                        <div class="flex items-center">
-                            <i class="fa-brands fa-whatsapp w-6 text-center mr-3"></i>
-                            <span>(12) 98122-5550</span>
-                        </div>
-                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Motoristas</h3>
+                    <p class="text-slate-600 text-sm mb-6 flex-grow">Estudo de Viabilidade – NexoFlow: Renda Extra com Mídia Embarcada.</p>
+                    <a href="https://openmidconnect.com.br" target="_blank" class="w-full block text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition shadow-md hover:shadow-lg">
+                        Preencher formulário <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+                    </a>
                 </div>
 
-                <!-- Form Side -->
-                <div class="p-10 md:w-3/5">
-                    <form onsubmit="event.preventDefault(); alert('Obrigado! Cadastro simulado com sucesso. Entraremos em contato.');">
-                        <div class="mb-5">
-                            <label class="block text-slate-700 text-sm font-bold mb-2" for="name">Nome Completo</label>
-                            <input class="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-nexo-blue focus:outline-none transition" type="text" id="name" placeholder="Seu nome" required>
-                        </div>
-                        
-                        <div class="mb-5">
-                            <label class="block text-slate-700 text-sm font-bold mb-2" for="email">E-mail</label>
-                            <input class="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-nexo-blue focus:outline-none transition" type="email" id="email" placeholder="seu@email.com" required>
-                        </div>
+                <!-- Card Passageiro -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg border border-slate-100 flex flex-col hover:shadow-xl hover:border-teal-300 transition duration-300 group">
+                    <div class="w-14 h-14 bg-teal-100 text-teal-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Passageiros</h3>
+                    <p class="text-slate-600 text-sm mb-6 flex-grow">Pesquisa para Passageiros – Experiência e Preferências no Transporte por Aplicativo.</p>
+                    <a href="https://openmidconnect.com.br" target="_blank" class="w-full block text-center bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-4 rounded-lg transition shadow-md hover:shadow-lg">
+                        Preencher formulário <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+                    </a>
+                </div>
 
-                        <div class="mb-6">
-                            <label class="block text-slate-700 text-sm font-bold mb-2" for="role">Tenho interesse como:</label>
-                            <div class="relative">
-                                <select class="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-nexo-blue focus:outline-none appearance-none transition" id="role">
-                                    <option>Motorista de Aplicativo</option>
-                                    <option>Anunciante / Agência</option>
-                                    <option>Investidor</option>
-                                    <option>Gestor Público (Smart Cities)</option>
-                                </select>
-                                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-slate-700">
-                                    <i class="fa-solid fa-chevron-down text-xs"></i>
-                                </div>
-                            </div>
-                        </div>
+                <!-- Card Anunciante -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg border border-slate-100 flex flex-col hover:shadow-xl hover:border-purple-300 transition duration-300 group">
+                    <div class="w-14 h-14 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Anunciantes</h3>
+                    <p class="text-slate-600 text-sm mb-6 flex-grow">Pesquisa de Avaliação de Interesse do Anunciantes no NexoFlow.</p>
+                    <a href="https://openmidconnect.com.br" target="_blank" class="w-full block text-center bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-4 rounded-lg transition shadow-md hover:shadow-lg">
+                        Preencher formulário <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+                    </a>
+                </div>
 
-                        <button type="submit" class="w-full bg-nexo-green hover:bg-green-600 text-white font-bold py-4 rounded-lg shadow-lg transform hover:-translate-y-1 transition duration-200">
-                            Solicitar Acesso ao Piloto
-                        </button>
-                    </form>
+            </div>
+
+            <!-- Contato Direto -->
+            <div class="mt-12 text-center border-t border-slate-200 pt-8">
+                <p class="text-slate-500 mb-4">Dúvidas ou parcerias diretas?</p>
+                <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+                    <a href="mailto:contato@openmidconnect.com.br" class="flex items-center text-slate-700 hover:text-nexo-blue font-medium transition">
+                        <i class="fa-solid fa-envelope mr-2 text-nexo-blue"></i> contato@openmidconnect.com.br
+                    </a>
+                    <a href="https://wa.me/5512981225550" class="flex items-center text-slate-700 hover:text-green-600 font-medium transition">
+                        <i class="fa-brands fa-whatsapp mr-2 text-green-500"></i> (12) 98122-5550
+                    </a>
                 </div>
             </div>
         </div>
@@ -436,32 +470,35 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-4 gap-8 mb-8">
             <div class="col-span-1 md:col-span-2">
                 <div class="flex items-center gap-2 mb-4 text-white">
-                    <i class="fa-solid fa-network-wired"></i>
-                    <span class="font-bold text-xl">NexoFlow</span>
+                    <div class="w-8 h-8 bg-nexo-blue rounded flex items-center justify-center text-white text-sm">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <span class="font-bold text-xl tracking-tight">NexoFlow</span>
                 </div>
                 <p class="text-sm max-w-xs leading-relaxed">
-                    Transformando a mobilidade urbana em conexões inteligentes. Um projeto OpenMid_Connect.
+                    Transformando a mobilidade urbana em conexões inteligentes através de mídia programática embarcada.
                 </p>
+                <p class="text-xs mt-4 text-slate-500">Uma iniciativa <strong>Openmid_Connect</strong>.</p>
             </div>
             <div>
-                <h4 class="text-white font-bold mb-4">Empresa</h4>
+                <h4 class="text-white font-bold mb-4 text-sm uppercase tracking-widest">Plataforma</h4>
                 <ul class="space-y-2 text-sm">
-                    <li><a href="#" class="hover:text-nexo-blue transition">Sobre Nós</a></li>
-                    <li><a href="#" class="hover:text-nexo-blue transition">Blog</a></li>
-                    <li><a href="#" class="hover:text-nexo-blue transition">Carreiras</a></li>
+                    <li><a href="#solucao" class="hover:text-nexo-blue transition">Como Funciona</a></li>
+                    <li><a href="#beneficios" class="hover:text-nexo-blue transition">Benefícios</a></li>
+                    <li><a href="https://openmidconnect.com.br" class="hover:text-nexo-blue transition">Estudo de Viabilidade</a></li>
                 </ul>
             </div>
             <div>
-                <h4 class="text-white font-bold mb-4">Legal</h4>
+                <h4 class="text-white font-bold mb-4 text-sm uppercase tracking-widest">Contato</h4>
                 <ul class="space-y-2 text-sm">
-                    <li><a href="#" class="hover:text-nexo-blue transition">Privacidade</a></li>
-                    <li><a href="#" class="hover:text-nexo-blue transition">Termos de Uso</a></li>
-                    <li><a href="#" class="hover:text-nexo-blue transition">Compliance</a></li>
+                    <li><a href="mailto:contato@openmidconnect.com.br" class="hover:text-nexo-blue transition">E-mail</a></li>
+                    <li><a href="https://wa.me/5512981225550" class="hover:text-nexo-blue transition">WhatsApp</a></li>
+                    <li><a href="https://openmidconnect.com.br" class="hover:text-nexo-blue transition">Website Oficial</a></li>
                 </ul>
             </div>
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center">
-            <p class="text-xs">&copy; 2024 OpenMid_Connect Tecnologia e novação Ltda.</p>
+            <p class="text-[10px] md:text-xs">&copy; 2025 Openmid_Connect Tecnologia e Inovação Ltda. | openmidconnect.com.br(atualizando site)</p>
             <div class="flex space-x-4 mt-4 md:mt-0">
                 <a href="#" class="text-slate-400 hover:text-white transition"><i class="fa-brands fa-linkedin text-xl"></i></a>
                 <a href="#" class="text-slate-400 hover:text-white transition"><i class="fa-brands fa-instagram text-xl"></i></a>
@@ -471,7 +508,6 @@
 
     <!-- Scripts -->
     <script>
-        // Mobile Menu Toggle
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
 
@@ -479,7 +515,6 @@
             menu.classList.toggle('hidden');
         });
 
-        // Close mobile menu on link click
         document.querySelectorAll('#mobile-menu a').forEach(link => {
             link.addEventListener('click', () => {
                 menu.classList.add('hidden');
